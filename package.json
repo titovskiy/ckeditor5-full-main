@@ -1,0 +1,56 @@
+{
+  "name": "@ckeditor/ckeditor5-build-classic",
+  "description": "A custom full CKEditor 5.",
+  "version": "31.0.0",
+  "license": "GPL-2.0-or-later",
+  "private": false,
+  "dependencies": {
+    "@ckeditor/ckeditor5-adapter-ckfinder": "^31.0.0",
+    "@ckeditor/ckeditor5-autoformat": "^31.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^31.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^31.0.0",
+    "@ckeditor/ckeditor5-ckfinder": "^31.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^24.0.2",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^24.0.2",
+    "@ckeditor/ckeditor5-editor-classic": "^31.0.0",
+    "@ckeditor/ckeditor5-essentials": "^31.0.0",
+    "@ckeditor/ckeditor5-heading": "^31.0.0",
+    "@ckeditor/ckeditor5-html-embed": "^31.0.0",
+    "@ckeditor/ckeditor5-image": "^31.0.0",
+    "@ckeditor/ckeditor5-indent": "^31.0.0",
+    "@ckeditor/ckeditor5-link": "^31.0.0",
+    "@ckeditor/ckeditor5-list": "^31.0.0",
+    "@ckeditor/ckeditor5-media-embed": "^31.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^31.0.0",
+    "@ckeditor/ckeditor5-paste-from-office": "^31.0.0",
+    "@ckeditor/ckeditor5-remove-format": "^31.0.0",
+    "@ckeditor/ckeditor5-table": "^31.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^31.0.0",
+    "@ckeditor/ckeditor5-typing": "^31.0.0",
+    "css-loader": "^5.0.1",
+    "postcss": "^8.2.4",
+    "postcss-loader": "^4.2.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckeditor/ckeditor5.git",
+    "directory": "packages/ckeditor5-build-classic"
+  },
+  "homepage": "https://ckeditor.com/ckeditor-5",
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor5-feature",
+    "ckeditor5-plugin",
+    "ckeditor5-react"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  }
+}
