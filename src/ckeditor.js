@@ -27,7 +27,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
-Editor.builtinPlugins = [
+ClassicEditor.builtinPlugins = [
 	Autoformat,
 	BlockQuote,
 	Bold,
